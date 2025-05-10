@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Mengatur judul halaman */
+h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Mengatur gaya untuk tabel */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya header tabel */
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Mengatur gaya sel tabel */
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Gaya untuk baris ganjil dan genap untuk meningkatkan keterbacaan */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Gaya untuk baris yang hover */
+tr:hover {
+    background-color: #f1c40f;
+    cursor: pointer;
+}
+
+/* Mengatur nomor urut */
+td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
